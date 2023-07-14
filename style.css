@@ -9,6 +9,7 @@
 }
 html{
     scroll-behavior: smooth;
+    /* overflow-y: hidden; */
 }
 
 :root{
@@ -22,6 +23,7 @@ html{
 body{
     font-family: "Poppins",san-serif;
     color: var(--primary-text-color);
+    overflow-x: hidden;
 }
 
 h1{
@@ -204,6 +206,7 @@ ul{
     background-image: url(./assets/asset\ 32.svg);
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 20px;
 }
 .features-header{
     text-align: center;
@@ -396,6 +399,9 @@ footer{
     .examples-card {
         width: calc(50% - 10px);
         height: 180px;
+    }
+    .header-right img{
+        width: 340px;
     }
 
     .cta-section {
